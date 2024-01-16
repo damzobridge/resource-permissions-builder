@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // Required
+    //"module": "esnext",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "strict": false,
+    "declaration": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.e2e.ts",
+    "cypress",
+    "**/*.test.ts",
+    "src/examples",
+    "src/lib/tests"
+  ],
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
